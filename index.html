@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário FAB</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ÁREA DE ATIVAÇÃO DO MENU -->
+    <div class="menu-trigger"></div>
+
+    <!-- MENU LATERAL -->
+    <div class="menu-lateral">
+
+        <div class="menu-titulo">
+            ☰ Conteúdo
+        </div>
+
+        <a href="index.html">📝 Formulário</a>
+        <a href="saibamais.html#sobre">O que é a FAB Virtual?</a>
+        <a href="saibamais.html#objetivo">Objetivo</a>
+        <a href="saibamais.html#formulario">Formulário</a>
+        <a href="saibamais.html#discord">Servidor do Discord</a>
+        <a href="saibamais.html#simuladores">Simuladores</a>
+        <a href="saibamais.html#aeronaves">Aeronaves</a>
+        <a href="saibamais.html#operacoes">Operações aéreas</a>
+        <a href="saibamais.html#treinamentos">Treinamentos</a>
+        <a href="saibamais.html#redes">VATSIM e IVAO</a>
+        <a href="saibamais.html#aprendizado">Aprendizado</a>
+        <a href="saibamais.html#comunidade">Comunidade</a>
+        <a href="saibamais.html#participar">Quem pode participar?</a>
+        <a href="saibamais.html#equipamentos">Equipamentos</a>
+        <a href="saibamais.html#realismo">Realismo e diversão</a>
+        <a href="saibamais.html#entrar">Como entrar?</a>
+        <a href="saibamais.html#jornada">Comece sua jornada</a>
+
+    </div>
+
+
+    <!-- CONTEÚDO DA PÁGINA -->
+    <main class="pagina">
+
+        <!-- SAIBA MAIS -->
+        <div class="saiba-mais">
+            <a href="saibamais.html">Saiba mais →</a>
+        </div>
+
+
+        <!-- TÍTULO -->
+        <div class="title">
+            <h1>Formulário FAB</h1>
+        </div>
+
+
+        <!-- TEXTO -->
+        <div class="texto">
+
+            <p>
+                A Força Aérea Brasileira Virtual é uma organização
+                voltada à simulação de operações aéreas militares,
+                buscando proporcionar uma experiência realista e
+                imersiva aos seus integrantes.
+            </p>
+
+            <p>
+                Este formulário tem como objetivo realizar o cadastro
+                de novos membros. Após o preenchimento, os candidatos
+                poderão receber orientações e participar do nosso
+                servidor no Discord, onde são organizadas as operações,
+                treinamentos e demais atividades da FAB Virtual.
+            </p>
+
+        </div>
+
+
+        <!-- DISCORD -->
+        <a
+            class="discord-link"
+            href="https://discord.gg/8hAMpMABw"
+            target="_blank"
+            rel="noopener noreferrer">
+            Link do Discord
+        </a>
+
+
+        <!-- FOTOS -->
+        <div class="fotos">
+
+        <img class="foto-aviao" src="imagens/aviao1.jpg" alt="Aeronave militar">
+
+        <img class="foto-aviao" src="imagens/aviao2.jpg" alt="Aeronave militar">
+
+        <img class="foto-aviao" src="imagens/aviao3.jpg" alt="Aeronave militar">
+
+    </div>
+
+
+        <!-- TÍTULO DOS DADOS -->
+        <div class="dados">
+            <h2>Seus dados</h2>
+        </div>
+
+
+        <!-- FORMULÁRIO -->
+        <form class="formulario">
+
+            <div class="campo">
+
+                <label for="nome">
+                    Seu nome:
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome">
+
+            </div>
+
+
+            <div class="campo">
+
+                <label for="dc">
+                    Nome do Discord:
+                </label>
+
+                <input
+                    type="text"
+                    id="dc"
+                    name="discord"
+                    placeholder="Digite seu nome no Discord">
+
+            </div>
+
+
+            <div class="campo">
+
+                <label for="idade">
+                    Sua idade:
+                </label>
+
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    placeholder="Digite sua idade">
+
+            </div>
+
+
+            <div class="campo">
+
+                <label for="place">
+                    Onde você mora (País e Estado):
+                </label>
+
+                <input
+                    type="text"
+                    id="place"
+                    name="localizacao"
+                    placeholder="Ex.: Brasil, Paraná">
+
+            </div>
+
+
+            <div class="campo">
+
+                <label for="sim">
+                    Qual seu simulador?
+                </label>
+
+                <input
+                    type="text"
+                    id="sim"
+                    name="simulador"
+                    placeholder="Ex.: Microsoft Flight Simulator">
+
+            </div>
+
+
+            <div class="campo">
+
+                <label for="server">
+                    Voa na VATSIM ou IVAO? (Se sim, qual?)
+                </label>
+
+                <input
+                    type="text"
+                    id="server"
+                    name="rede"
+                    placeholder="Ex.: VATSIM">
+
+            </div>
+
+            <button type="button" id="enviar">
+                Enviar Formulário
+            </button>
+
+            <div id="mensagem"></div>
+
+            <script src="script.js"></script>
+            
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
