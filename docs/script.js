@@ -144,7 +144,7 @@ botao.addEventListener("click", async function() {
     try {
 
         const resposta = await fetch(
-            "http://127.0.0.1:5000/enviar",
+            "https://fab-virtual-server.onrender.com/enviar",
             {
                 method: "POST",
 
